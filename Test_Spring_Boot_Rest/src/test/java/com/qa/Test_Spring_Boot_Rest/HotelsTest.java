@@ -30,15 +30,13 @@ public class HotelsTest {
 	}
 	
 	@Test
-	@Ignore
+
 	public void testGet() {
 		
 		response = request.when().get("http://localhost:8090/example/v1/hotels?page=0&size=100");
-		json = response.then().statusCode(200);
 		System.out.println(response.getStatusCode());
-		assertEquals(201, response.getStatusCode());
+		assertEquals(200, response.getStatusCode());
 		System.out.println(response.prettyPrint());
-		
 	}
 	
 	@Test
@@ -48,7 +46,6 @@ public class HotelsTest {
 		
 		params.put("city", "Amsterdam");
 		params.put("description", "Close to the Anne Frank museum.");
-//		params.put("id", 0);
 		params.put("name", "Amsterdam");
 		params.put("rating", 3);
 		
@@ -74,7 +71,6 @@ public class HotelsTest {
 	}
 	
 	@Test
-	@Ignore
 	public void testGetById() {
 		int id = 22;
 		response = request.when().get("http://localhost:8090/example/v1/hotels/" + id);

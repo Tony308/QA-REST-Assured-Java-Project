@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="cucumber.api.java.en.Then"/>
-<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
 <fullyQualifiedTypeName name="cucumber.api.java.Before"/>
 <fullyQualifiedTypeName name="io.restassured.response.Response"/>
 <fullyQualifiedTypeName name="io.restassured.response.Validatable"/>
-<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
-<fullyQualifiedTypeName name="io.restassured.builder.RequestSpecBuilder"/>
 <fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
-<fullyQualifiedTypeName name="cucumber.api.PendingException"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="com.qa.Test_Spring_Boot_Rest.Main"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
@@ -21,4 +17,11 @@
 <fullyQualifiedTypeName name="org.json.JSONObject"/>
 <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
 <fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
+<fullyQualifiedTypeName name="cucumber.api.java.en.When"/>
+<fullyQualifiedTypeName name="cucumber.api.PendingException"/>
+<fullyQualifiedTypeName name="io.restassured.builder.RequestSpecBuilder"/>
+<fullyQualifiedTypeName name="cucumber.api.junit.Cucumber"/>
+<fullyQualifiedTypeName name="cucumber.api.CucumberOptions"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
 </qualifiedTypeNameHistroy>
