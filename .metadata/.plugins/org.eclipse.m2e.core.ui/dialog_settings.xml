@@ -33,6 +33,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Admin\IdeaProjects\DemoQA"/>
 			<item value="C:\Users\Admin\Desktop\spring-boot-rest-example"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -70,6 +71,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.qa.SeleniumPraktisch"/>
 			<item value="com.qa.Test_Spring_Boot_Rest"/>
 			<item value="com.qa.RESTassured"/>
 		</list>
@@ -77,6 +79,7 @@
 			<item value="com.qa"/>
 		</list>
 		<list key="artifactId">
+			<item value="SeleniumPraktisch"/>
 			<item value="Test_Spring_Boot_Rest"/>
 			<item value="RESTassured"/>
 		</list>
