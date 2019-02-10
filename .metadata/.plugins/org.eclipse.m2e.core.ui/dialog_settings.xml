@@ -33,6 +33,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Project\Account-Administration-Application"/>
 			<item value="C:\Users\Admin\IdeaProjects\DemoQA"/>
 			<item value="C:\Users\Admin\Desktop\spring-boot-rest-example"/>
 		</list>

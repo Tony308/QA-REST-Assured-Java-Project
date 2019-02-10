@@ -3919,3 +3919,107 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected 
 2018-07-26 18:34:57,548 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\SeleniumPraktisch\src\main\resources
 2018-07-26 18:34:57,549 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-07-26 18:34:57,553 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\eclipse-workspace\SeleniumPraktisch\src\test\resources
+2018-08-06 23:40:38,341 [Worker-10] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-06 23:40:38,590 [Worker-10] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2018-08-12 22:23:28,454 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-12 22:24:40,090 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qa:Application:1.0-SNAPSHOT @ D:\Project\Account-Administration-Application\pom.xml.
+2018-08-12 22:24:43,655 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:backend:0.0.1-SNAPSHOT @ D:\Project\Account-Administration-Application\backend\pom.xml.
+2018-08-12 22:24:44,589 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:frontend:0.0.1-SNAPSHOT @ D:\Project\Account-Administration-Application\frontend\pom.xml.
+2018-08-12 22:24:47,794 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /backend/src/main/java
+2018-08-12 22:24:47,794 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /backend/src/main/resources
+2018-08-12 22:24:47,831 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /backend/src/main/resources
+2018-08-12 22:24:47,865 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /backend/src/test/java
+2018-08-12 22:24:51,746 [Worker-8] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v9.11.1 is already installed.
+2018-08-12 22:24:51,773 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontend/src/main/java
+2018-08-12 22:24:51,773 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontend/src/test/java
+2018-08-12 22:24:51,914 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 14 sec
+2018-08-12 22:24:55,372 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:24:55,393 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-08-12 22:24:55,557 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:24:55,558 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-12 22:24:55,575 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 43 resources
+2018-08-12 22:24:56,064 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:24:56,064 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\backend\src\test\resources
+2018-08-12 22:24:56,513 [Worker-4] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v9.11.1 is already installed.
+2018-08-12 22:24:56,518 [Worker-4] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in D:\Project\Account-Administration-Application\frontend
+2018-08-12 22:24:56,718 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - internal/modules/cjs/loader.js:550
+2018-08-12 22:24:56,787 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     throw err;
+2018-08-12 22:24:56,796 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     ^
+2018-08-12 22:24:56,804 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2018-08-12 22:24:56,813 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - Error: Cannot find module 'D:\Project\Account-Administration-Application\frontend\node\node_modules\npm\bin\npm-cli.js'
+2018-08-12 22:24:56,821 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+2018-08-12 22:24:56,828 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+2018-08-12 22:24:56,838 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module.runMain (internal/modules/cjs/loader.js:695:10)
+2018-08-12 22:24:56,859 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at startup (internal/bootstrap/node.js:201:19)
+2018-08-12 22:24:56,867 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at bootstrapNodeJSCore (internal/bootstrap/node.js:516:3)
+2018-08-12 22:24:56,879 [Worker-4] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm run build' in D:\Project\Account-Administration-Application\frontend
+2018-08-12 22:24:57,055 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - internal/modules/cjs/loader.js:550
+2018-08-12 22:24:57,064 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     throw err;
+2018-08-12 22:24:57,071 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     ^
+2018-08-12 22:24:57,078 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2018-08-12 22:24:57,087 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - Error: Cannot find module 'D:\Project\Account-Administration-Application\frontend\node\node_modules\npm\bin\npm-cli.js'
+2018-08-12 22:24:57,096 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+2018-08-12 22:24:57,104 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+2018-08-12 22:24:57,113 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module.runMain (internal/modules/cjs/loader.js:695:10)
+2018-08-12 22:24:57,121 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at startup (internal/bootstrap/node.js:201:19)
+2018-08-12 22:24:57,129 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at bootstrapNodeJSCore (internal/bootstrap/node.js:516:3)
+2018-08-12 22:24:57,140 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:24:57,140 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\frontend\src\main\resources
+2018-08-12 22:24:57,140 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\frontend\src\main\resources
+2018-08-12 22:24:57,142 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:24:57,142 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\frontend\src\test\resources
+2018-08-12 22:25:02,233 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-12 22:25:02,814 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.qa:Application:1.0-SNAPSHOT @ D:\Project\Account-Administration-Application\pom.xml.
+2018-08-12 22:25:03,457 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:backend:0.0.1-SNAPSHOT @ D:\Project\Account-Administration-Application\backend\pom.xml.
+2018-08-12 22:25:04,177 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:frontend:0.0.1-SNAPSHOT @ D:\Project\Account-Administration-Application\frontend\pom.xml.
+2018-08-12 22:25:04,959 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /backend/src/main/java
+2018-08-12 22:25:04,960 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /backend/src/main/resources
+2018-08-12 22:25:04,961 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /backend/src/main/resources
+2018-08-12 22:25:04,962 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /backend/src/test/java
+2018-08-12 22:25:05,350 [Worker-14] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v9.11.1 is already installed.
+2018-08-12 22:25:05,354 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontend/src/main/java
+2018-08-12 22:25:05,354 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /frontend/src/test/java
+2018-08-12 22:25:05,553 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-08-12 22:25:06,543 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:25:06,544 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-08-12 22:25:06,663 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:25:06,664 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-12 22:25:06,679 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2018-08-12 22:25:07,184 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:25:07,184 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\backend\src\test\resources
+2018-08-12 22:25:07,958 [Worker-11] INFO  c.g.e.m.p.f.lib.NodeInstaller - Node v9.11.1 is already installed.
+2018-08-12 22:25:07,962 [Worker-11] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm install' in D:\Project\Account-Administration-Application\frontend
+2018-08-12 22:25:08,143 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - internal/modules/cjs/loader.js:550
+2018-08-12 22:25:08,154 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     throw err;
+2018-08-12 22:25:08,163 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     ^
+2018-08-12 22:25:08,171 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2018-08-12 22:25:08,178 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - Error: Cannot find module 'D:\Project\Account-Administration-Application\frontend\node\node_modules\npm\bin\npm-cli.js'
+2018-08-12 22:25:08,184 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+2018-08-12 22:25:08,189 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+2018-08-12 22:25:08,197 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module.runMain (internal/modules/cjs/loader.js:695:10)
+2018-08-12 22:25:08,204 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at startup (internal/bootstrap/node.js:201:19)
+2018-08-12 22:25:08,211 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at bootstrapNodeJSCore (internal/bootstrap/node.js:516:3)
+2018-08-12 22:25:08,220 [Worker-11] INFO  c.g.e.m.p.f.lib.DefaultNpmRunner - Running 'npm run build' in D:\Project\Account-Administration-Application\frontend
+2018-08-12 22:25:08,407 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - internal/modules/cjs/loader.js:550
+2018-08-12 22:25:08,417 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     throw err;
+2018-08-12 22:25:08,425 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     ^
+2018-08-12 22:25:08,432 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - 
+2018-08-12 22:25:08,440 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner - Error: Cannot find module 'D:\Project\Account-Administration-Application\frontend\node\node_modules\npm\bin\npm-cli.js'
+2018-08-12 22:25:08,447 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:548:15)
+2018-08-12 22:25:08,455 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module._load (internal/modules/cjs/loader.js:475:25)
+2018-08-12 22:25:08,463 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at Function.Module.runMain (internal/modules/cjs/loader.js:695:10)
+2018-08-12 22:25:08,470 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at startup (internal/bootstrap/node.js:201:19)
+2018-08-12 22:25:08,479 [Exec Stream Pumper] ERROR c.g.e.m.p.f.lib.DefaultNpmRunner -     at bootstrapNodeJSCore (internal/bootstrap/node.js:516:3)
+2018-08-12 22:25:08,489 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:25:08,489 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\frontend\src\main\resources
+2018-08-12 22:25:08,489 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\frontend\src\main\resources
+2018-08-12 22:25:08,491 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:25:08,491 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\frontend\src\test\resources
+2018-08-12 22:30:11,354 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:30:11,357 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-08-12 22:30:11,457 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:30:11,458 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-12 22:30:11,458 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-12 22:30:11,462 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-12 22:30:11,462 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Project\Account-Administration-Application\backend\src\test\resources
+2019-01-18 19:08:23,283 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
